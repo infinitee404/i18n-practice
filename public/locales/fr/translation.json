@@ -1,0 +1,7 @@
+{
+    "greeting": "Bonjour, Bienvenue!",
+    "description": {
+        "line1": "Je m'appelle <1>{{name}}</1>. Comment vous appelez-vous?",
+        "line2": "Ceci est un tutoriel  d'internationalisation."
+    }
+}
