@@ -1,7 +1,13 @@
 {
     "title": "Clavier A4T",
-    "description": {
-        "line1": "Je m'appelle <1>{{name}}</1>. Comment vous appelez-vous?",
-        "line2": "Ceci est un tutoriel  d'internationalisation."
-    }
-}
+    "description": "Rehaussez vos compétences de jeu avec notre clavier ultra-réactif, conçu pour une précision maximale et orné d'un éclairage RVB envoûtant.",
+    "second": "Meilleures fonctionnalités jamais vues",
+    "features": {
+      "feat1": "Interrupteurs mécaniques",
+      "feat2": "Éclairage RGB",
+      "feat3": "Anti-ghosting",
+      "feat4": "Touches macro"
+    },
+    "button" : "Achetez maintenant"
+  }
+  

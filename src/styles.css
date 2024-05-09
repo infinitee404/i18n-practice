@@ -55,6 +55,11 @@ nav {
     align-items: flex-start;
     justify-content: center;
     width: 500px;
+    line-height: 35px;
+}
+
+.title{
+    margin-bottom: 15px;
 }
 
 .image img{
@@ -89,4 +94,22 @@ img:hover{
 
 .select-container select option[selected] {
     background-color: #646cff;
+}
+
+.btn{
+    background-color: #2c36f7;
+    color: #f1f1f1;
+    font-weight: 600;
+    border: 3px solid transparent;
+    margin-top: 20px;
+    height: 70px;
+    width: 140px;
+    font-family: inherit;
+    font-size: 1.25rem;
+}
+
+.btn:hover{
+  border: 3px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
 }

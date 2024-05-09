@@ -1,4 +1,12 @@
 {
     "title": "A4T Keyboard",
-    "description": "Elevate your gaming prowess with our ultra-responsive keyboard, designed for maximum precision and adorned with mesmerizing RGB lighting."
+    "description": "Elevate your gaming prowess with our ultra-responsive keyboard, designed for maximum precision and adorned with mesmerizing RGB lighting.",
+    "second": "Best in Scene",
+    "features": {
+        "feat1" : "Mechanical switches",
+        "feat2" : "RGB Lighthing",
+        "feat3" : "Anti-ghosting",
+        "feat4" : "Macro keys"
+    },
+    "button" : "Buy now"
 }
