@@ -1,5 +1,5 @@
 {
-    "greeting": "Bonjour, Bienvenue!",
+    "title": "Clavier A4T",
     "description": {
         "line1": "Je m'appelle <1>{{name}}</1>. Comment vous appelez-vous?",
         "line2": "Ceci est un tutoriel  d'internationalisation."

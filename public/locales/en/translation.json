@@ -1,7 +1,4 @@
 {
-    "greeting": "Hello, Welcome!",
-    "description": {
-        "line1": "My name is <1>{{name}}</1>. What is your name?",
-        "line2": "This is an Internationalisation Tutorial."
-    }
+    "title": "A4T Keyboard",
+    "description": "Elevate your gaming prowess with our ultra-responsive keyboard, designed for maximum precision and adorned with mesmerizing RGB lighting."
 }

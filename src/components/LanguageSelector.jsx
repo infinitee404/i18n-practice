@@ -22,19 +22,25 @@ const LanguageSelector = () => {
   },[i18n, i18n.language])
   
   return (
-    <div className="button-container">
-      {languages.map((lng) => {
-        return (
-          <button 
-            className={lng.code === i18n.language ? "selected" : ""} 
-            key={lng.code} 
-            onClick={() => changeLanguage(lng.code)} 
+    <>
+    <nav>
+      <div className="logo">ABC</div>
+      <div className="select-container">
+        <select
+          name="languages"
+          id="languages"
+          value={i18n.language} // Set the selected value to the current language
+          onChange={(e) => changeLanguage(e.target.value)} // Call changeLanguage with the selected language code
           >
-            {lng.lang}
-          </button>
-        )
-      })}
-    </div>
+          {languages.map((lng) => (
+            <option key={lng.code} value={lng.code}>
+              {lng.lang}
+            </option>
+          ))}
+        </select>
+      </div>
+    </nav>
+    </>
   )
 }
 
